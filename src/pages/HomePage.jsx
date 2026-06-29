@@ -101,7 +101,7 @@ const HomePage = ({ onMovieClick }) => {
       <div className="home-content">
         {renderMovieRow('Live TV', globalData.livetv)}
         {renderMovieRow('Movies', globalData.movie)}
-        {renderMovieRow('18+ Adult', globalData.adult)}
+         
       </div>
     </div>
   );
