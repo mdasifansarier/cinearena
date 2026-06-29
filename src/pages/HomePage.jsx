@@ -99,8 +99,8 @@ const HomePage = ({ onMovieClick }) => {
       </div>
 
       <div className="home-content">
-        {renderMovieRow('Movies', globalData.movie)}
         {renderMovieRow('Live TV', globalData.livetv)}
+        {renderMovieRow('Movies', globalData.movie)}
         {renderMovieRow('18+ Adult', globalData.adult)}
       </div>
     </div>
